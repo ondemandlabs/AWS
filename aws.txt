@@ -1,0 +1,3 @@
+AWS is a first cloud provider,
+
+Aws provides many services that organizations use to run their Applications on cloud servers
