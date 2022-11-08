@@ -1,3 +1,18 @@
-AWS is a first cloud provider,
+Locally redundant storage (LRS)
+-------------------------------
+If you create storage account by locally redundant storage, this storage will be triggered within the data centre. if your data centre stopped working, your entire data can't be accessed, aws provides 99.99999%
 
-Aws provides many services that organizations use to run their Applications on cloud servers
+
+Zone redundant storage
+-----------------------
+if you create storage account foolowed by Zone redundant storage, your data can be traffered to availability zone and it is very safe and protected, aws provides 99.999999%
+
+Geo redundant storage
+---------------------
+If you create storage account followed by (GRS), your entire data will be safe and secure and if your data centre has some network issue, your entire data will be trasferred to different region, aws provides 99.999999%
+
+Different storage Accounts
+--------------------------
+S3
+EBS
+EFS
